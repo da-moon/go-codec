@@ -5,8 +5,8 @@ import (
 	"io"
 
 	multierror "github.com/hashicorp/go-multierror"
+	hcl "github.com/hashicorp/hcl"
 	ast "github.com/hashicorp/hcl/hcl/ast"
-	hcl2 "github.com/hashicorp/hcl/hcl"
 	stacktrace "github.com/palantir/stacktrace"
 )
 
